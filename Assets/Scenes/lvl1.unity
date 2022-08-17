@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -351,7 +351,7 @@ GameObject:
   - component: {fileID: 131147224}
   - component: {fileID: 131147223}
   - component: {fileID: 131147222}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1979,7 +1979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 905337735}
   - component: {fileID: 905337736}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Point Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3957,7 +3957,7 @@ GameObject:
   - component: {fileID: 1548765459}
   - component: {fileID: 1548765461}
   - component: {fileID: 1548765460}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Partical System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14280,7 +14280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTag: Player
   NextSceneName: lvl2
-  ScreenBackground: {fileID: 0}
+  ScreenBackground: {fileID: 6381707334298295852}
 --- !u!58 &1792022162
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17425,7 +17425,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4110237114645087368}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.16, y: -2.07, z: -1}
+  m_LocalPosition: {x: 13.224, y: -2.034, z: -1}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.5}
   m_Children:
   - {fileID: 4110237113126473904}
